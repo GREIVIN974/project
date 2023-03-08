@@ -112,16 +112,53 @@ print("to low")
 
 
 
+print("-----------------separador---------------------------------")
+
+# sumar edades  de hombre y mujeres
+
+hombres = 10
+mujeres = 28
+
+suma = hombres + mujeres
+print(suma)
+
+print("-----------------separador---------------------------------")
+
+peras_compradas = 200
+
+peras_vendidas = 100
+
+total_de_ventas = peras_compradas - peras_vendidas
+
+print(total_de_ventas)
+
+print("-----------------separador---------------------------------")
 
 
+hombres = 10
+mujeres = 28
+mayor_de_edad = hombres >= 18
+
+print("mayor de edad?")
+
+print(mayor_de_edad)
 
 
+print("-----------------separador---------------------------------")
+#  usemos comparaciones de string para etiquetar los datos adquiridos a traves de la encuesta de usauarios de una aplicacion de fitness. verificamos las respuestas de la encuesta de los usuarios con respecto a la frecuncia e intensidad de la actividad, las etiquetaremos y mostraremos los resultados
 
 
+frecuencia = "una vez a la semana"
+intensidad = "baja"
+activo = frecuencia == "diaria"
+print("el usuario es activo?")
+print(activo)
+print("el usuario es intenso?")
+intenso = intensidad == "alta"
+print(intenso)
 
 
-
-
+print(f"la edad de greivin es {hombres} ")
 
 
 
