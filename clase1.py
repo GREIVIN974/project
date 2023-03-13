@@ -161,8 +161,10 @@ print(intenso)
 print(f"la edad de greivin es {hombres} ")
 
 
+print("-----------------separador---------------------------------")
+tel = 87181507
 
-
+print(f"https://wa.me/506{tel}")
 
 
 
