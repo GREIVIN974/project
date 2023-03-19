@@ -263,7 +263,7 @@ print("----------------- ejercicio 7 ---------------------------------")
 
 # Escribir un programa donde almacenas dos números enteros 
 ent1 = 100
-ent2 = 8
+ent2 = 80
 
 # y muestre por pantalla la <n> entre <m> 
 print(ent1)
@@ -279,6 +279,57 @@ result = ent1 / ent2
 print(result)
 
 
+
+
+print("----------------- investigacion  ---------------------------------")
+print("----------------- Ejercicio 1  ---------------------------------")
+# Escribir un programa que pregunte el nombre completo del usuario en la consola y 
+# después muestre por pantalla el nombre completo del usuario tres veces, una con todas 
+# las letras minúsculas, otra con todas las letras mayúsculas y otra solo con la primera letra 
+# del nombre y de los apellidos en mayúscula. El usuario puede introducir su nombre combinando
+#  mayúsculas y minúsculas como quiera.
+
+nombre_completo = input("Introduce tú nombre completo:")
+
+print(nombre_completo.lower())
+
+
+print(nombre_completo.upper())
+
+
+print(nombre_completo.title())
+
+print("----------------- Ejercicio  2 ---------------------------------")
+#Escribir un programa que pregunte el nombre del usuario en la consola y
+#  un número entero e imprima por pantalla en líneas distintas el nomb re del 
+# usuario tantas veces como el número introducido.
+
+nom = input("Ingrese su nombre: ")
+
+numentero = int(input("Ingrese un número entero: "))
+
+for y in range(numentero):
+ print(nom)
+
+#En este programa, se utiliza la función input()para pedir al usuario su nombre y un número entero. Luego, el número ingresado se convierte a un entero utilizando la función int(), para poder utilizarlo en un ciclo forque se repetirá el número de veces indicado. Dentro del ciclo, se imprime el nombre del usuario utilizando la función print()en cada iteración.
+
+
+
+
+
+
+print("----------------- Ejercicio  3 ---------------------------------")
+
+#Escribir un programa que pregunte el nombre del usuario en la consola y después de que el usuario lo introduzca muestre por pantalla <NOMBRE> tiene <n> letras, donde <NOMBRE> es el nombre de usuario en mayúsculas y <n> es el número de letras que tienen el nombre.
+
+
+nombr = input("DÍGITE SU NOMBRE ")
+
+print(nombr.upper() + "tiene" + str(len(nombr)) + " letras")
+
+#UPPER PARA HACER MAYUSCULAS 
+#LEN devuelve un valor entero que indica la cantidad de caracteres en la cadena de entrada
+#str se utiliza para representar texto
 
 
 
