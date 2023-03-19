@@ -166,8 +166,117 @@ tel = 87181507
 
 print(f"https://wa.me/506{tel}")
 
+print("-----------------ejercicio 1/2---------------------------------")
 
 
+COMENTARIO = ("HOLA MUNDO")
+
+print(COMENTARIO)
+
+print("-----------------ejercicio 3---------------------------------")
+
+
+NOM = "EMA"
+
+print(F"!HOLA {NOM}¡ ")
+
+
+print("-----------------ejercicio 4---------------------------------")
+
+
+
+oper = ("((3+2)/(2*5))^2")
+
+sim = 3+2 
+
+sim2 = 2*5
+
+sim3 = "(1/2)^2"
+
+sim4 = "1/2^2"
+
+sim5 = 1/4
+
+print(oper)
+
+
+print(f"Simplifica 3+2 = {sim}")
+
+
+print(f"Simplifica 2*5 = {sim2}")
+
+
+print(f"Simplifica (5/10)^2 = {sim3}")
+
+
+print(f" Usa Propiedad de la División Distributiva:{sim4}")
+
+
+
+
+
+print(sim4)
+
+
+print(f"El resultado es 1/4 o lo mismo que {sim5}")
+
+
+
+print("-----------------ejercicio 5---------------------------------")
+# Escribir un programa que pregunte almacene el número de horas trabajadas y el coste por hora. 
+# Después debe mostrar por pantalla la paga que le corresponde.
+
+horas = 8
+
+
+costo = 2000
+
+supago = horas * costo 
+
+print(f"Digíte cantidad de horas trabajadas ____ {8}. Ahora digíte el costo de cada hora de trabajo___{costo}")
+
+print(f"SU PAGO ES DE {supago}")
+
+
+
+print("-----------------ejercicio 6---------------------------------")
+
+# Escribir un programa que pida al usuario su peso (en kg) y estatura (en metros), calcule el 
+# índice de masa corporal y lo almacene en una variable, y muestre por pantalla 
+# la frase Tu índice de masa corporal es <imc> donde <imc> 
+# es el índice de masa corporal calculado redondeado con dos decimales.
+
+peso = 90
+
+# variable tipo floar
+estat = 1.83
+
+
+mascop = peso /estat
+
+print(f"Digite su peso en kg__{peso}")
+print(f"Digite su estatura en metros__{estat}")
+print(f"Tu índice de masa corporal es:{mascop}imc")
+
+
+print("----------------- ejercicio 7 ---------------------------------")
+
+# Escribir un programa donde almacenas dos números enteros 
+ent1 = 100
+ent2 = 8
+
+# y muestre por pantalla la <n> entre <m> 
+print(ent1)
+print("/")
+print(ent2)
+# da un cociente <c> y un resto <r> donde <n> y <m> son los números almacenados, y <c> y <r> son el 
+# cociente y el resto de la división entera respectivamente.
+
+
+result = ent1 / ent2
+
+
+print(result)
 
 
 
