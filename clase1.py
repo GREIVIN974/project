@@ -166,15 +166,26 @@ tel = 87181507
 
 print(f"https://wa.me/506{tel}")
 
-print("-----------------ejercicio 1/2---------------------------------")
 
+
+
+
+
+print("-----------------ejercicio 1/2---------------------------------")
+#Escribir un programa que muestre por pantalla la cadena ¡Hola Mundo!.
+#Escribir un programa que almacene la cadena ¡Hola Mundo! en una variable y luego muestre 
+# por pantalla el contenido de la variable.
+
+print("HOLA MUNDO")
 
 COMENTARIO = ("HOLA MUNDO")
 
 print(COMENTARIO)
 
 print("-----------------ejercicio 3---------------------------------")
-
+#Escribir un programa que almacene el nombre del usuario en la consola y después de que muestre 
+# por pantalla la cadena 
+# ¡Hola <nombre>!, donde <nombre> es el nombre que el usuario.
 
 NOM = "EMA"
 
@@ -182,10 +193,10 @@ print(F"!HOLA {NOM}¡ ")
 
 
 print("-----------------ejercicio 4---------------------------------")
+#Escribir un programa que muestre por pantalla el resultado de la siguiente operación aritméticas
 
 
-
-oper = ("((3+2)/(2*5))^2")
+oper = ("((3+2)/(2*5))**2")
 
 sim = 3+2 
 
@@ -309,9 +320,12 @@ nom = input("Ingrese su nombre: ")
 numentero = int(input("Ingrese un número entero: "))
 
 for y in range(numentero):
- print(nom)
+    print(nom)
 
-#En este programa, se utiliza la función input()para pedir al usuario su nombre y un número entero. Luego, el número ingresado se convierte a un entero utilizando la función int(), para poder utilizarlo en un ciclo forque se repetirá el número de veces indicado. Dentro del ciclo, se imprime el nombre del usuario utilizando la función print()en cada iteración.
+#En este programa, se utiliza la función input()para pedir al usuario su nombre y un número entero.
+#  Luego, el número ingresado se convierte a un entero utilizando la función int(), para poder utilizarlo en un ciclo 
+# forque se repetirá el número de veces indicado. Dentro del ciclo, se imprime el nombre del usuario utilizando la función 
+# print()en cada iteración.
 
 
 
@@ -330,6 +344,19 @@ print(nombr.upper() + "tiene" + str(len(nombr)) + " letras")
 #UPPER PARA HACER MAYUSCULAS 
 #LEN devuelve un valor entero que indica la cantidad de caracteres en la cadena de entrada
 #str se utiliza para representar texto
+
+
+
+#LOS PROGRamas inteligentes usan booleanos (true o false) para toamr decisiones sobre si ejecutar lineas de codigo
+#u omitirla
+
+print("----------------- SEPARADOR ---------------------------------")
+
+
+
+
+
+
 
 
 
